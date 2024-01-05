@@ -1,7 +1,7 @@
 class Counter{
- int count=0;
+Static int count=0;
  Counter(){
- count++;
+count++;
 System.out.println(count);
 }
 public static void main(String args[]){
