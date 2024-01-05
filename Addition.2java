@@ -1,0 +1,14 @@
+import java.io.*;
+import java.util.scanner;
+class Addition2{
+ public static void main(String []args)
+ { 
+    Scanner sc=new Scanner(System.in);
+    System.out.println("enter the value of n1:");
+    System.out.println("enter the value of n2:");
+    int n1=sc.nextInt();
+    int n2=sc.nextInt();
+    sum=n1+n2;
+    System.out.println(n1 +"+" +n2 +"="+sum);
+  }
+}
