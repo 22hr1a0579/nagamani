@@ -1,14 +1,9 @@
 import java.util.Scanner;
-class Num1{
+class Numbers2{
 public static void main(String args[])
 { 
   Scanner sc=new Scanner(System.in);
-  int n=sc.nextInt();
-  int i=0;
-  do{
+  for(int i=0;i<=n;i=i-5)
   System.out.print(i+",");
-  i=i+5;
-  }while(i<=n);
-
 }
 }
