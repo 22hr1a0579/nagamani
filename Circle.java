@@ -1,14 +1,20 @@
+class Operation{
+int square(int n){
+return n*n;
+}
+}
 class Circle{
-int radius;
-void insert(int l){
-radius=l;
+Operation op;
+double pi=3.14;
+ 
+double area(int radius){
+op=new Operation();
+int rsquare=op.square(radius);
+return pi*rsquare;
 }
-void calculatePerimeter(){
-System.out.println(2*3.14*radius);}
-}
-class TestCircle{
 public static void main(String args[]){
-Circle r1=new Circle();
-r1.insert(7);
-r1.calculatePerimeter();
-}}
+Circle c=new Circle();
+double result=c.area(5);
+System.out.println(result);
+}
+}
